@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Bulkren',         # How you named your package folder (MyLib)
   packages = ['Bulkren'],   # Chose the same as "name"
-  version = '1.0.0',      # Start with a small number and increase it with every change you make
+  version = '1.0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Bulkren can reduce your finger pains, just rename files in bulk',   # Give a short description about your library
   author = 'Akash Srivastava',                   # Type in your name
@@ -12,7 +12,6 @@ setup(
   keywords = ['rename files', 'bulk rename', 'rename', 'rename files in bulk', 'bulk', 'rename', 'files', 'all', '.pdf', '.txt', '.jpg'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'tqdm',
-          'shutil',
           'argparse',
       ],
   classifiers=[
