@@ -1,1 +1,2 @@
-from Bulkren.bulkren import bulkren
+from .bulkren import run
+run()
