@@ -30,7 +30,6 @@ def run():
     print("OUTPUT FOLDER: %s"%(output_path))
 
     file_list = os.listdir(input_path)
-    total_files = len(file_list)
 
     for e,i in enumerate(tqdm(file_list)):
         file_path = os.path.join(input_path, i)

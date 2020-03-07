@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Bulkren',         # How you named your package folder (MyLib)
   packages = ['Bulkren'],   # Chose the same as "name"
-  version = '1.0.1',      # Start with a small number and increase it with every change you make
+  version = '1.0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Bulkren can reduce your finger pains, just rename files in bulk',   # Give a short description about your library
   author = 'Akash Srivastava',                   # Type in your name
