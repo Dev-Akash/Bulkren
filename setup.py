@@ -8,7 +8,7 @@ setup(
   author = 'Akash Srivastava',                   # Type in your name
   author_email = 'sriakash.dev@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Dev-Akash/Bulkren',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Dev-Akash/Bulkren/archive/v1.0.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Dev-Akash/Bulkren/archive/v1.0.2.tar.gz',    # I explain this later on
   keywords = ['rename files', 'bulk rename', 'rename', 'rename files in bulk', 'bulk', 'rename', 'files', 'all', '.pdf', '.txt', '.jpg'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'tqdm',
