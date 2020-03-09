@@ -33,8 +33,8 @@ def run():
 
     for e,i in enumerate(tqdm(file_list)):
         file_path = os.path.join(input_path, i)
-        index = i.index('.')
-        ext = i[index:]
-        paste_path = os.path.join(output_path, pattern+str(e)+ext)
-        shutil.copy(file_path, paste_path)
-
+        if not os.path.isdir(file_path):
+            index = i.index('.')
+            ext = i[index:]
+            paste_path = os.path.join(output_path, pattern+str(e)+ext)
+            shutil.copy(file_path, paste_path)
