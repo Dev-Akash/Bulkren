@@ -1,18 +1,15 @@
 from distutils.core import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setup(
   name = 'Bulkren',         # How you named your package folder (MyLib)
   packages = ['Bulkren'],   # Chose the same as "name"
-  version = '1.0.3',      # Start with a small number and increase it with every change you make
+  version = '1.0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Bulkren can reduce your finger pains, just rename files in bulk',   # Give a short description about your library
   author = 'Akash Srivastava',                   # Type in your name
   author_email = 'sriakash.dev@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Dev-Akash/Bulkren',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Dev-Akash/Bulkren/archive/v1.0.3.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Dev-Akash/Bulkren/archive/v1.0.5.tar.gz',    # I explain this later on
   keywords = ['rename files', 'bulk rename', 'rename', 'rename files in bulk', 'bulk', 'rename', 'files', 'all', '.pdf', '.txt', '.jpg'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'tqdm',
@@ -28,6 +25,4 @@ setup(
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
   ],
-  long_description=long_description,
-  long_description_content_type='text/markdown',
 )
