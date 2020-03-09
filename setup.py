@@ -1,10 +1,18 @@
 from distutils.core import setup
+
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
   name = 'Bulkren',         # How you named your package folder (MyLib)
   packages = ['Bulkren'],   # Chose the same as "name"
   version = '1.0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Bulkren can reduce your finger pains, just rename files in bulk',   # Give a short description about your library
+  long_description=long_description,
+  long_description_content_type='text/markdown',
   author = 'Akash Srivastava',                   # Type in your name
   author_email = 'sriakash.dev@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Dev-Akash/Bulkren',   # Provide either the link to your github or to your website
