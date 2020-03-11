@@ -1,6 +1,6 @@
 # Bulkren
 [![PyPI version](https://badge.fury.io/py/Bulkren.svg)](https://badge.fury.io/py/Bulkren)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/Bulkren)
+[![Downloads](https://pepy.tech/badge/bulkren/month)](https://pepy.tech/project/bulkren/month)
 
 A simple PYPI package for bulk renaming files inside a folder. 
 
