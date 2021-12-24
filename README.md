@@ -1,6 +1,7 @@
 # Bulkren
 [![PyPI version](https://badge.fury.io/py/Bulkren.svg)](https://badge.fury.io/py/Bulkren)
 [![Downloads](https://pepy.tech/badge/bulkren/month)](https://pepy.tech/project/bulkren/month)
+[![Downloads](https://pepy.tech/badge/bulkren)](https://pepy.tech/project/bulkren)
 
 A simple PYPI package for bulk renaming files inside a folder. 
 
@@ -41,3 +42,6 @@ This above example will take all the files in `C:\User\Akash\Desktop\input_folde
 `-o` is `optional` parameter
 
 `-p` is `required` parameter
+
+## Blogs
+- [How to Bulk Rename Files](https://dev-akash.github.io/posts/how-to-bulk-rename-files.html)
